@@ -22,7 +22,7 @@
         };
         setInterval(() => {
             dt = new Date();
-            date = dt.toLocaleDateString()
+            date = dt.toLocaleDateString(undefined, options)
             time = dt.getHours() + ':' + dt.getMinutes() + ':' + dt.getSeconds();
             document.getElementById('time').innerHTML = time + " on " + date;
         }, 1000);
