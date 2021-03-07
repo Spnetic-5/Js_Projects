@@ -15,7 +15,7 @@ body {
 }
 
 canvas {
-    border: 2px solid rebeccapurple;
+    border: 2px solid rgb(255, 153, 0);
 }
 
 .toolbox {
