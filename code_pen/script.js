@@ -57,8 +57,8 @@ function drawLine(x1, y1, x2, y2) {
 increaseBtn.addEventListener("click", () => {
     size += 5;
 
-    if (size > 50) {
-        size = 50;
+    if (size > 30) {
+        size = 30;
     }
 
     updateSizeOnScreen();
